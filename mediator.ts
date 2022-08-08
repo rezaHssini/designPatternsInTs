@@ -46,6 +46,7 @@ class Application {
     var ringo = new Participant("Ringo");
 
     var chatroom = new Chatroom();
+    
     chatroom.register(yoko);
     chatroom.register(john);
     chatroom.register(paul);
